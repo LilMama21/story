@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: auto;
+}
+.header {
+    position: relative;
+}
+.dropbtn {
+    background-color: #25c9df;
+    color: rgb(0, 0, 0);
+    padding: 13px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+.dropdown {
+    position: relative; top: -247px;
+    display: inline-block;
+}
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(238, 151, 151);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0, 2);
+    z-index: 1;
+}
+.drop-content p {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.drop-content p:hover {background-color: #ddd;}
+.dropdown:hover .drop-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #2241a7;}
+.stori {
+    display:flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: slategray;
+    font-size: 150px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 25px;
+}
+.mar {
+    background-color:turquoise;
+    border: none;
+    padding: 13px;
+    max-width: 200;
+    font-size: 60px;
+    font-family: 'Caveat', cursive;
+    position: absolute; top: -150px;
+    position: absolute; left: 690px;
+}
+.banner {
+    position: relative;
+}
+.banner h2 {
+    max-width: 300px;
+    font-size: 15px;
+    color: silver;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.moment {
+    max-width: 300px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family: 'Caveat', cursive;
+    text-transform: uppercase;
+}
+.banner p {
+    max-width: 300px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Caveat', cursive;
+}
+.full {
+    float: right;
+    width: 500px;
+    height: 400px;
+    position: absolute; left: 700px;
+    position: absolute; top: 60px;
+    border: 5px solid seashell;
+}
+.phone {
+    background-color: seashell;
+    position: absolute; top: 115px;
+    position: absolute; left: 530px;
+    border: 5px solid seashell;
+}
+.dropbtn02 {
+    background-color: #25c9df;
+    color: rgb(0, 0, 0);
+    padding: 13px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+}
+.banner02 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 630px;
+    color: silver;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.tra {
+    font-size: 15px;
+    color: silver;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.moment02 {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family: 'Caveat', cursive;
+    text-transform: uppercase;
+}
+.dropbtn03 {
+    display: flex;
+    flex: none;
+    background-color: #25c9df;
+    color: rgb(0, 0, 0);
+    padding: 13px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+}
